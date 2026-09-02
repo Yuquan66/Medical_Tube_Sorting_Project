@@ -1,0 +1,42 @@
+{
+  "episodes": 100,
+  "success_rate": 1.0,
+  "outcome_counts": {
+    "correct_bin": 100
+  },
+  "class_results": {
+    "universal polystyrene tube": {
+      "episodes": 15,
+      "correct": 15,
+      "success_rate": 1.0
+    },
+    "universal polypropylene tube": {
+      "episodes": 23,
+      "correct": 23,
+      "success_rate": 1.0
+    },
+    "polypropylene centrifuge tube 2": {
+      "episodes": 23,
+      "correct": 23,
+      "success_rate": 1.0
+    },
+    "polypropylene lysis tube": {
+      "episodes": 18,
+      "correct": 18,
+      "success_rate": 1.0
+    },
+    "polypropylene centrifuge tube 1": {
+      "episodes": 21,
+      "correct": 21,
+      "success_rate": 1.0
+    }
+  },
+  "mean_return": 57.96821090855766,
+  "mean_misfires": 0.0,
+  "mean_fired_intensity": 0.9326006466150284,
+  "mean_jet_accumulated_impulse": 0.07504794951269785,
+  "mean_jet_peak_force": 0.7057453082883459,
+  "mean_cumulative_valve_command": 1.8523694649338722,
+  "mean_valve_command_per_decision": 0.31503937650152614,
+  "results_csv": "runs\\rl\\comparisons\\sac_improved_v1\\original_sac_seed44.csv"
+}

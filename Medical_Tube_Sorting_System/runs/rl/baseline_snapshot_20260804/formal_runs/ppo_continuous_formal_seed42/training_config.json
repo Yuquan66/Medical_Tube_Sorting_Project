@@ -1,0 +1,19 @@
+{
+  "algorithm": "PPO",
+  "action_mode": "continuous",
+  "action_definition": "One policy action in [-1, 1] maps linearly to a [0, 1] opening for the YOLO-routed proportional valve.",
+  "observation": [
+    "normalized_x_position",
+    "normalized_y_distance_to_target_jet",
+    "normalized_detected_class"
+  ],
+  "timesteps": 200000,
+  "seed": 42,
+  "recognition_error_probability": 0.0,
+  "learning_rate": 0.0003,
+  "gamma": 0.995,
+  "n_steps": 2048,
+  "batch_size": 64,
+  "device": "auto",
+  "resume_from": null
+}

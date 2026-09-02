@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+
+<robot name="bin_funnel">
+
+    <link name="base_link" concave="yes">
+
+        <visual>
+            <origin xyz="0 0 0" rpy="0 0 0"/>
+
+            <geometry>
+                <mesh
+                    filename="../meshes/bin.stl"
+                    scale="0.01 0.01 0.01"/>
+            </geometry>
+        </visual>
+
+        <collision concave="yes">
+            <origin xyz="0 0 0" rpy="0 0 0"/>
+
+            <geometry>
+                <mesh
+                    filename="../meshes/bin.stl"
+                    scale="0.01 0.01 0.01"/>
+            </geometry>
+        </collision>
+
+    </link>
+
+</robot>

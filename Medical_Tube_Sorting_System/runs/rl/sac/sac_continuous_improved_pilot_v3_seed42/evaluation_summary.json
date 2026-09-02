@@ -1,0 +1,42 @@
+{
+  "episodes": 200,
+  "success_rate": 1.0,
+  "outcome_counts": {
+    "correct_bin": 200
+  },
+  "class_results": {
+    "polypropylene centrifuge tube 2": {
+      "episodes": 36,
+      "correct": 36,
+      "success_rate": 1.0
+    },
+    "universal polypropylene tube": {
+      "episodes": 48,
+      "correct": 48,
+      "success_rate": 1.0
+    },
+    "polypropylene centrifuge tube 1": {
+      "episodes": 42,
+      "correct": 42,
+      "success_rate": 1.0
+    },
+    "polypropylene lysis tube": {
+      "episodes": 34,
+      "correct": 34,
+      "success_rate": 1.0
+    },
+    "universal polystyrene tube": {
+      "episodes": 40,
+      "correct": 40,
+      "success_rate": 1.0
+    }
+  },
+  "mean_return": 51.00038430661728,
+  "mean_misfires": 0.0,
+  "mean_fired_intensity": 0.9096357402205467,
+  "mean_jet_accumulated_impulse": 0.075571510571356,
+  "mean_jet_peak_force": 0.7096922749664514,
+  "mean_cumulative_valve_command": 1.8734657333791256,
+  "mean_valve_command_per_decision": 0.32435908021529514,
+  "results_csv": "runs\\rl\\sac\\sac_continuous_improved_pilot_v3_seed42\\evaluation.csv"
+}

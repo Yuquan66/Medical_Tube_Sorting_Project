@@ -1,0 +1,12 @@
+{
+  "episodes": 200,
+  "success_rate": 0.745,
+  "outcome_counts": {
+    "missed_bin": 51,
+    "correct_bin": 149
+  },
+  "mean_return": 41.124250770020645,
+  "mean_misfires": 0.0,
+  "mean_valve_opening": 1.0978265799582005,
+  "results_csv": "C:\\Users\\10031\\pybullet_project\\Conveyor-Belt-Tube-Detection-System-main\\runs\\rl\\ppo\\continuous\\ppo_continuous_formal_seed42\\evaluation.csv"
+}

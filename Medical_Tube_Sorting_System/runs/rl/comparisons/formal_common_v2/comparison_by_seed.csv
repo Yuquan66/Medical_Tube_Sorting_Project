@@ -1,0 +1,26 @@
+comparison_group,controller,policy_key,action_mode,seed,episodes,success_rate,mean_return,mean_misfires,mean_cumulative_valve_command,mean_valve_command_per_decision,results_csv,correct_bin,wrong_bin,missed_nozzle,missed_bin,truncated
+reference,Fixed rule,fixed_rule,discrete,42,100,0.53,22.66295626207084,0.0,1.0,0.125,runs\rl\comparisons\formal_common_v2\fixed_rule_seed42.csv,53,0,0,47,0
+reference,Fixed rule,fixed_rule,discrete,43,100,0.55,23.96295626207084,0.0,1.0,0.125,runs\rl\comparisons\formal_common_v2\fixed_rule_seed43.csv,55,0,0,45,0
+reference,Fixed rule,fixed_rule,discrete,44,100,0.57,25.262956262070837,0.0,1.0,0.125,runs\rl\comparisons\formal_common_v2\fixed_rule_seed44.csv,57,0,0,43,0
+reference,Fixed rule,fixed_rule,discrete,45,100,0.49,20.062956262070834,0.0,1.0,0.125,runs\rl\comparisons\formal_common_v2\fixed_rule_seed45.csv,49,0,0,51,0
+reference,Fixed rule,fixed_rule,discrete,46,100,0.7,33.71295626207084,0.0,1.0,0.125,runs\rl\comparisons\formal_common_v2\fixed_rule_seed46.csv,70,0,0,30,0
+discrete,DQN,dqn,discrete,42,100,0.66,34.76837906234796,0.0,1.0269999992847443,0.16134949486424222,runs\rl\comparisons\formal_common_v2\dqn_seed42.csv,66,0,0,34,0
+discrete,DQN,dqn,discrete,43,100,0.69,36.49215514778334,0.0,1.044999998807907,0.16066486275230477,runs\rl\comparisons\formal_common_v2\dqn_seed43.csv,69,0,0,31,0
+discrete,DQN,dqn,discrete,44,100,0.69,37.02557955209188,0.0,1.0179999995231628,0.16416666658719378,runs\rl\comparisons\formal_common_v2\dqn_seed44.csv,69,0,0,31,0
+discrete,DQN,dqn,discrete,45,100,0.59,29.534815786606142,0.0,1.0539999985694886,0.16191594498171263,runs\rl\comparisons\formal_common_v2\dqn_seed45.csv,59,0,0,41,0
+discrete,DQN,dqn,discrete,46,100,0.83,46.3260857020026,0.0,1.044999998807907,0.16859155827683292,runs\rl\comparisons\formal_common_v2\dqn_seed46.csv,83,0,0,17,0
+discrete,PPO-Discrete,ppo_discrete,discrete,42,100,0.98,57.20501910883726,0.0,0.9649999916553498,0.1710285698232197,runs\rl\comparisons\formal_common_v2\ppo_discrete_seed42.csv,98,0,0,2,0
+discrete,PPO-Discrete,ppo_discrete,discrete,43,100,0.98,57.1845482036409,0.0,0.9669999921321869,0.17159047469638647,runs\rl\comparisons\formal_common_v2\ppo_discrete_seed43.csv,98,0,0,2,0
+discrete,PPO-Discrete,ppo_discrete,discrete,44,100,0.99,57.8971009005764,0.0,0.9609999907016754,0.16895714113258184,runs\rl\comparisons\formal_common_v2\ppo_discrete_seed44.csv,99,0,0,1,0
+discrete,PPO-Discrete,ppo_discrete,discrete,45,100,0.95,55.123171365984206,0.0,0.9629999911785125,0.1731285696881158,runs\rl\comparisons\formal_common_v2\ppo_discrete_seed45.csv,95,0,0,5,0
+discrete,PPO-Discrete,ppo_discrete,discrete,46,100,0.97,56.727520326001425,0.0,0.9729999935626984,0.16899999880790711,runs\rl\comparisons\formal_common_v2\ppo_discrete_seed46.csv,97,0,0,3,0
+continuous,PPO-Continuous,ppo_continuous,continuous,42,100,0.74,40.798469769132005,0.0,1.073284930884838,0.20119813971434322,runs\rl\comparisons\formal_common_v2\ppo_continuous_seed42.csv,74,0,0,26,0
+continuous,PPO-Continuous,ppo_continuous,continuous,43,100,0.71,38.929841257937085,0.0,1.1244307667016984,0.21034689152240754,runs\rl\comparisons\formal_common_v2\ppo_continuous_seed43.csv,71,0,0,29,0
+continuous,PPO-Continuous,ppo_continuous,continuous,44,100,0.67,36.1457553342231,0.0,1.0599028128385544,0.20020202863925982,runs\rl\comparisons\formal_common_v2\ppo_continuous_seed44.csv,67,0,0,33,0
+continuous,PPO-Continuous,ppo_continuous,continuous,45,100,0.73,40.06613628530785,0.0,1.0853762474656106,0.20828010314135323,runs\rl\comparisons\formal_common_v2\ppo_continuous_seed45.csv,73,0,0,27,0
+continuous,PPO-Continuous,ppo_continuous,continuous,46,100,0.73,40.32966976529755,0.0,1.0942105588316917,0.19990917526824137,runs\rl\comparisons\formal_common_v2\ppo_continuous_seed46.csv,73,0,0,27,0
+continuous,SAC,sac,continuous,42,100,1.0,58.13456440657413,0.0,1.817885485291481,0.3169040230129447,runs\rl\comparisons\formal_common_v2\sac_seed42.csv,100,0,0,0,0
+continuous,SAC,sac,continuous,43,100,0.99,57.342442421548476,0.0,1.7969006803631782,0.3131908038570767,runs\rl\comparisons\formal_common_v2\sac_seed43.csv,99,0,0,1,0
+continuous,SAC,sac,continuous,44,100,1.0,57.96821090855766,0.0,1.8523694649338722,0.31503937650152614,runs\rl\comparisons\formal_common_v2\sac_seed44.csv,100,0,0,0,0
+continuous,SAC,sac,continuous,45,100,0.98,56.638909381056884,0.0,1.8223562690615653,0.31197772670927504,runs\rl\comparisons\formal_common_v2\sac_seed45.csv,98,0,0,2,0
+continuous,SAC,sac,continuous,46,100,0.99,57.45002357502396,0.0,1.8121779444813728,0.3159803864260514,runs\rl\comparisons\formal_common_v2\sac_seed46.csv,99,0,0,1,0

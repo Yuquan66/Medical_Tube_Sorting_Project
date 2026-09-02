@@ -1,0 +1,18 @@
+{
+  "seeds": [
+    42,
+    43,
+    44,
+    45,
+    46
+  ],
+  "episodes_per_seed": 100,
+  "recognition_error_probability": 0.0,
+  "policies": {
+    "fixed_rule": "built-in full-opening timing rule",
+    "dqn": "runs\\rl\\dqn\\dqn_discrete_formal_v5_seed42\\dqn_sorting_policy.zip",
+    "ppo_discrete": "runs\\rl\\ppo\\discrete\\ppo_discrete_formal_seed42\\ppo_discrete_sorting_policy.zip",
+    "ppo_continuous": "runs\\rl\\ppo\\continuous\\ppo_continuous_formal_seed42\\ppo_continuous_sorting_policy.zip",
+    "sac": "runs\\rl\\sac\\sac_continuous_formal_v2_seed42\\sac_sorting_policy.zip"
+  }
+}

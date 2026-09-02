@@ -1,0 +1,3 @@
+﻿configuration,total,correct,success_rate,recognition_failure,nozzle_selection_failure,physical_failure
+baseline,100,81,0.81,4,0,15
+improved,100,90,0.9,4,0,6

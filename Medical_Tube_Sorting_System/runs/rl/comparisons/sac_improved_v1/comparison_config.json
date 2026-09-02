@@ -1,0 +1,14 @@
+{
+  "seeds": [
+    42,
+    43,
+    44,
+    45,
+    46
+  ],
+  "episodes_per_seed": 100,
+  "policies": {
+    "Original SAC": "runs\\rl\\sac\\sac_continuous_formal_v2_seed42\\sac_sorting_policy.zip",
+    "Improved SAC": "runs\\rl\\sac\\sac_continuous_improved_pilot_v3_seed42\\sac_sorting_policy.zip"
+  }
+}

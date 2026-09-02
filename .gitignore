@@ -1,0 +1,27 @@
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# IDE settings
+.idea/
+.vscode/
+
+# Local runtime files
+*.log
+*.cache
+.runtime/
+Ultralytics/
+
+# Operating system files
+.DS_Store
+Thumbs.db
+desktop.ini

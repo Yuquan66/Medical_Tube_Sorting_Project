@@ -1,0 +1,54 @@
+{
+  "baseline": {
+    "total": 100,
+    "correct": 81,
+    "success_rate": 0.81,
+    "recognition_failure": 4,
+    "nozzle_selection_failure": 0,
+    "physical_failure": 15,
+    "class_total": {
+      "universal polystyrene tube": 23,
+      "polypropylene centrifuge tube 1": 20,
+      "universal polypropylene tube": 16,
+      "polypropylene centrifuge tube 2": 21,
+      "polypropylene lysis tube": 20
+    },
+    "class_correct": {
+      "universal polystyrene tube": 17,
+      "polypropylene centrifuge tube 1": 20,
+      "universal polypropylene tube": 11,
+      "polypropylene centrifuge tube 2": 18,
+      "polypropylene lysis tube": 15
+    }
+  },
+  "improved": {
+    "total": 100,
+    "correct": 90,
+    "success_rate": 0.9,
+    "recognition_failure": 4,
+    "nozzle_selection_failure": 0,
+    "physical_failure": 6,
+    "class_total": {
+      "universal polystyrene tube": 23,
+      "polypropylene centrifuge tube 1": 20,
+      "universal polypropylene tube": 16,
+      "polypropylene centrifuge tube 2": 21,
+      "polypropylene lysis tube": 20
+    },
+    "class_correct": {
+      "universal polystyrene tube": 21,
+      "polypropylene centrifuge tube 1": 20,
+      "universal polypropylene tube": 12,
+      "polypropylene centrifuge tube 2": 21,
+      "polypropylene lysis tube": 16
+    }
+  },
+  "paired_transitions": {
+    "Correct in both": 81,
+    "Fixed by improvement": 9,
+    "Failed in both": 10
+  },
+  "paired_tube_count": 100,
+  "absolute_success_rate_change": 0.08999999999999997,
+  "physical_failure_reduction": 9
+}

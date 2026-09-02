@@ -1,0 +1,51 @@
+﻿controller,seed,tube_class,episodes,correct,success_rate
+Original SAC,42,universal polystyrene tube,19,19,1.0
+Original SAC,42,universal polypropylene tube,27,27,1.0
+Original SAC,42,polypropylene centrifuge tube 1,22,22,1.0
+Original SAC,42,polypropylene centrifuge tube 2,13,13,1.0
+Original SAC,42,polypropylene lysis tube,19,19,1.0
+Original SAC,43,universal polystyrene tube,20,20,1.0
+Original SAC,43,universal polypropylene tube,25,24,0.96
+Original SAC,43,polypropylene centrifuge tube 1,13,13,1.0
+Original SAC,43,polypropylene centrifuge tube 2,19,19,1.0
+Original SAC,43,polypropylene lysis tube,23,23,1.0
+Original SAC,44,universal polystyrene tube,15,15,1.0
+Original SAC,44,universal polypropylene tube,23,23,1.0
+Original SAC,44,polypropylene centrifuge tube 1,21,21,1.0
+Original SAC,44,polypropylene centrifuge tube 2,23,23,1.0
+Original SAC,44,polypropylene lysis tube,18,18,1.0
+Original SAC,45,universal polystyrene tube,14,14,1.0
+Original SAC,45,universal polypropylene tube,24,22,0.9166666666666666
+Original SAC,45,polypropylene centrifuge tube 1,18,18,1.0
+Original SAC,45,polypropylene centrifuge tube 2,22,22,1.0
+Original SAC,45,polypropylene lysis tube,22,22,1.0
+Original SAC,46,universal polystyrene tube,26,26,1.0
+Original SAC,46,universal polypropylene tube,27,26,0.9629629629629629
+Original SAC,46,polypropylene centrifuge tube 1,18,18,1.0
+Original SAC,46,polypropylene centrifuge tube 2,16,16,1.0
+Original SAC,46,polypropylene lysis tube,13,13,1.0
+Improved SAC,42,universal polystyrene tube,19,19,1.0
+Improved SAC,42,universal polypropylene tube,27,27,1.0
+Improved SAC,42,polypropylene centrifuge tube 1,22,22,1.0
+Improved SAC,42,polypropylene centrifuge tube 2,13,13,1.0
+Improved SAC,42,polypropylene lysis tube,19,19,1.0
+Improved SAC,43,universal polystyrene tube,20,20,1.0
+Improved SAC,43,universal polypropylene tube,25,24,0.96
+Improved SAC,43,polypropylene centrifuge tube 1,13,13,1.0
+Improved SAC,43,polypropylene centrifuge tube 2,19,19,1.0
+Improved SAC,43,polypropylene lysis tube,23,23,1.0
+Improved SAC,44,universal polystyrene tube,15,15,1.0
+Improved SAC,44,universal polypropylene tube,23,23,1.0
+Improved SAC,44,polypropylene centrifuge tube 1,21,21,1.0
+Improved SAC,44,polypropylene centrifuge tube 2,23,23,1.0
+Improved SAC,44,polypropylene lysis tube,18,18,1.0
+Improved SAC,45,universal polystyrene tube,14,14,1.0
+Improved SAC,45,universal polypropylene tube,24,22,0.9166666666666666
+Improved SAC,45,polypropylene centrifuge tube 1,18,18,1.0
+Improved SAC,45,polypropylene centrifuge tube 2,22,22,1.0
+Improved SAC,45,polypropylene lysis tube,22,22,1.0
+Improved SAC,46,universal polystyrene tube,26,26,1.0
+Improved SAC,46,universal polypropylene tube,27,26,0.9629629629629629
+Improved SAC,46,polypropylene centrifuge tube 1,18,18,1.0
+Improved SAC,46,polypropylene centrifuge tube 2,16,16,1.0
+Improved SAC,46,polypropylene lysis tube,13,13,1.0

@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+
+<robot name="incline_conveyor">
+
+    <link name="base_link">
+
+        <visual>
+            <origin xyz="0 0 0" rpy="0 0 0"/>
+
+            <geometry>
+                <mesh
+                    filename="../meshes/incline_conveyor.stl"
+                    scale="0.01 0.01 0.01"/>
+            </geometry>
+        </visual>
+
+        <collision>
+            <origin
+                xyz="-6.162985 0 -3.128910"
+                rpy="0 -0.698132 0"/>
+
+            <geometry>
+                <box size="13.0 3.0 0.10"/>
+            </geometry>
+        </collision>
+
+    </link>
+
+</robot>

@@ -1,0 +1,40 @@
+{
+  "episodes": 100,
+  "success_rate": 0.95,
+  "outcome_counts": {
+    "correct_bin": 95,
+    "missed_bin": 5
+  },
+  "class_results": {
+    "polypropylene lysis tube": {
+      "episodes": 22,
+      "correct": 21,
+      "success_rate": 0.9545454545454546
+    },
+    "universal polystyrene tube": {
+      "episodes": 14,
+      "correct": 14,
+      "success_rate": 1.0
+    },
+    "universal polypropylene tube": {
+      "episodes": 24,
+      "correct": 22,
+      "success_rate": 0.9166666666666666
+    },
+    "polypropylene centrifuge tube 2": {
+      "episodes": 22,
+      "correct": 22,
+      "success_rate": 1.0
+    },
+    "polypropylene centrifuge tube 1": {
+      "episodes": 18,
+      "correct": 16,
+      "success_rate": 0.8888888888888888
+    }
+  },
+  "mean_return": 55.123171365984206,
+  "mean_misfires": 0.0,
+  "mean_cumulative_valve_command": 0.9629999911785125,
+  "mean_valve_command_per_decision": 0.1731285696881158,
+  "results_csv": "runs\\rl\\comparisons\\formal_common_v2\\ppo_discrete_seed45.csv"
+}

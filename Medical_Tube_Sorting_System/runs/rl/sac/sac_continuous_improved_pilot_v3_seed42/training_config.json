@@ -1,0 +1,34 @@
+{
+  "algorithm": "SAC",
+  "hardware_assumption": "Five proportional valves are selected by the YOLO class; SAC continuously controls the selected valve opening.",
+  "action_definition": {
+    "shape": [
+      1
+    ],
+    "policy_range": [
+      -1.0,
+      1.0
+    ],
+    "physical_mapping": "opening=(action+1)/2; the system applies it to the YOLO-routed proportional valve"
+  },
+  "observation": [
+    "normalized_x_position",
+    "normalized_y_distance_to_target_jet",
+    "normalized_detected_class"
+  ],
+  "timesteps": 25000,
+  "seed": 42,
+  "recognition_error_probability": 0.0,
+  "learning_rate": 0.0003,
+  "gamma": 0.995,
+  "buffer_size": 100000,
+  "learning_starts": 1000,
+  "batch_size": 256,
+  "tau": 0.005,
+  "energy_penalty": 0.1,
+  "correct_jet_intensity_weight": 0.0,
+  "actuation_intensity_penalty": 8.0,
+  "device": "auto",
+  "resume_from": "runs\\rl\\sac\\sac_continuous_improved_pilot_v2_seed42\\sac_sorting_policy.zip",
+  "resume_replay_buffer": null
+}

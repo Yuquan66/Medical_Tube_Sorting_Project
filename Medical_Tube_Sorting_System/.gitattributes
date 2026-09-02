@@ -1,0 +1,18 @@
+* text=auto
+
+*.py text eol=lf
+*.md text eol=lf
+*.txt text eol=lf
+*.json text eol=lf
+*.yaml text eol=lf
+*.yml text eol=lf
+*.csv text eol=lf
+*.urdf text eol=lf
+
+*.pt binary
+*.zip binary
+*.pkl binary
+*.jpg binary
+*.jpeg binary
+*.png binary
+*.stl binary

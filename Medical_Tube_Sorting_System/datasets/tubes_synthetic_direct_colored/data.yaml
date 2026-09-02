@@ -1,0 +1,9 @@
+train: images/train
+val: images/val
+test: images/test
+names:
+  0: universal polystyrene tube
+  1: universal polypropylene tube
+  2: polypropylene centrifuge tube 1
+  3: polypropylene centrifuge tube 2
+  4: polypropylene lysis tube

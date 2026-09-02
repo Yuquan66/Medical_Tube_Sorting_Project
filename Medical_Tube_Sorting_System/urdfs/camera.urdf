@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+
+<robot name="camera">
+    <link name="base_link" concave="yes">
+        <visual>
+            <origin xyz="0 0 0" rpy="0 0 0"/>
+            <geometry>
+                <mesh
+                    filename="../meshes/camera.stl"
+                    scale="0.01 0.01 0.01"/>
+            </geometry>
+        </visual>
+
+        <collision concave="yes">
+            <origin xyz="0 0 0" rpy="0 0 0"/>
+            <geometry>
+                <mesh
+                    filename="../meshes/camera.stl"
+                    scale="0.01 0.01 0.01"/>
+            </geometry>
+        </collision>
+
+        <inertial>
+            <origin xyz="0 0 0" rpy="0 0 0"/>
+            <mass value="1.0"/>
+            <inertia
+                ixx="1.0"
+                iyy="1.0"
+                izz="1.0"
+                ixy="0.0"
+                ixz="0.0"
+                iyz="0.0"/>
+        </inertial>
+    </link>
+</robot>

@@ -1,0 +1,40 @@
+{
+  "episodes": 200,
+  "success_rate": 0.685,
+  "outcome_counts": {
+    "correct_bin": 137,
+    "missed_bin": 63
+  },
+  "class_results": {
+    "polypropylene centrifuge tube 2": {
+      "episodes": 36,
+      "correct": 17,
+      "success_rate": 0.4722222222222222
+    },
+    "universal polypropylene tube": {
+      "episodes": 48,
+      "correct": 46,
+      "success_rate": 0.9583333333333334
+    },
+    "polypropylene centrifuge tube 1": {
+      "episodes": 42,
+      "correct": 27,
+      "success_rate": 0.6428571428571429
+    },
+    "polypropylene lysis tube": {
+      "episodes": 34,
+      "correct": 8,
+      "success_rate": 0.23529411764705882
+    },
+    "universal polystyrene tube": {
+      "episodes": 40,
+      "correct": 39,
+      "success_rate": 0.975
+    }
+  },
+  "mean_return": 36.402654038651654,
+  "mean_misfires": 0.0,
+  "mean_cumulative_valve_command": 1.031499999165535,
+  "mean_valve_command_per_decision": 0.16137885993168638,
+  "results_csv": "runs\\rl\\dqn\\dqn_discrete_formal_v5_seed42\\evaluation.csv"
+}

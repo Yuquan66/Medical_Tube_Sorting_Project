@@ -1,0 +1,11 @@
+﻿controller,tube_class,episodes,correct,success_rate
+Original SAC,universal polystyrene tube,94,94,1.0
+Original SAC,universal polypropylene tube,126,122,0.9682539682539683
+Original SAC,polypropylene centrifuge tube 1,92,92,1.0
+Original SAC,polypropylene centrifuge tube 2,93,93,1.0
+Original SAC,polypropylene lysis tube,95,95,1.0
+Improved SAC,universal polystyrene tube,94,94,1.0
+Improved SAC,universal polypropylene tube,126,122,0.9682539682539683
+Improved SAC,polypropylene centrifuge tube 1,92,92,1.0
+Improved SAC,polypropylene centrifuge tube 2,93,93,1.0
+Improved SAC,polypropylene lysis tube,95,95,1.0

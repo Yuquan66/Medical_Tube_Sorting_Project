@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+
+<robot name="conveyor_belt_shortened">
+
+    <link name="base_link">
+
+        <visual>
+            <origin xyz="0 0 0" rpy="0 0 0"/>
+            <geometry>
+                <mesh
+                    filename="../meshes/conveyor_belt_shortened.stl"
+                    scale="0.01 0.01 0.01"/>
+            </geometry>
+        </visual>
+
+        <collision>
+            <origin xyz="0 0 0" rpy="0 0 0"/>
+            <geometry>
+                <mesh
+                    filename="../meshes/conveyor_belt_shortened.stl"
+                    scale="0.01 0.01 0.01"/>
+            </geometry>
+        </collision>
+
+        <inertial>
+            <mass value="1.0"/>
+            <inertia
+                ixx="1.0"
+                iyy="1.0"
+                izz="1.0"
+                ixy="0"
+                ixz="0"
+                iyz="0"/>
+        </inertial>
+
+    </link>
+
+</robot>

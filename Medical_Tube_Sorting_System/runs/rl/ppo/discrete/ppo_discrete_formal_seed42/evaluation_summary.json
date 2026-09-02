@@ -1,0 +1,12 @@
+{
+  "episodes": 200,
+  "success_rate": 0.97,
+  "outcome_counts": {
+    "correct_bin": 194,
+    "missed_bin": 6
+  },
+  "mean_return": 56.5427105392964,
+  "mean_misfires": 0.0,
+  "mean_valve_opening": 0.9679999923706055,
+  "results_csv": "runs\\rl\\ppo\\discrete\\ppo_discrete_formal_seed42\\evaluation.csv"
+}

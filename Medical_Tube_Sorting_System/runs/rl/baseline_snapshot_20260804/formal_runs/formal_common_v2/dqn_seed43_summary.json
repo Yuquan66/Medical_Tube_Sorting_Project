@@ -1,0 +1,40 @@
+{
+  "episodes": 100,
+  "success_rate": 0.69,
+  "outcome_counts": {
+    "missed_bin": 31,
+    "correct_bin": 69
+  },
+  "class_results": {
+    "polypropylene centrifuge tube 1": {
+      "episodes": 13,
+      "correct": 9,
+      "success_rate": 0.6923076923076923
+    },
+    "polypropylene centrifuge tube 2": {
+      "episodes": 19,
+      "correct": 10,
+      "success_rate": 0.5263157894736842
+    },
+    "polypropylene lysis tube": {
+      "episodes": 23,
+      "correct": 7,
+      "success_rate": 0.30434782608695654
+    },
+    "universal polystyrene tube": {
+      "episodes": 20,
+      "correct": 19,
+      "success_rate": 0.95
+    },
+    "universal polypropylene tube": {
+      "episodes": 25,
+      "correct": 24,
+      "success_rate": 0.96
+    }
+  },
+  "mean_return": 36.49215514778334,
+  "mean_misfires": 0.0,
+  "mean_cumulative_valve_command": 1.044999998807907,
+  "mean_valve_command_per_decision": 0.16066486275230477,
+  "results_csv": "C:\\Users\\10031\\pybullet_project\\Conveyor-Belt-Tube-Detection-System-main\\runs\\rl\\comparisons\\formal_common_v2\\dqn_seed43.csv"
+}

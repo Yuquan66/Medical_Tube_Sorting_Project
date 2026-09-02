@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+
+<robot name="horizontal_conveyor_complete">
+
+    <link name="base_link">
+
+        <visual>
+            <origin xyz="0 0 0" rpy="0 0 0"/>
+            <geometry>
+                <mesh
+                    filename="../meshes/horizontal_conveyor_complete.stl"
+                    scale="0.01 0.01 0.01"/>
+            </geometry>
+        </visual>
+
+        <collision>
+            <origin xyz="6.5 0 -0.025" rpy="0 0 0"/>
+            <geometry>
+                <box size="13.0 3.0 0.05"/>
+            </geometry>
+        </collision>
+
+        <inertial>
+            <origin xyz="0 0 0"/>
+            <mass value="1"/>
+            <inertia
+                ixx="1"
+                ixy="0"
+                ixz="0"
+                iyy="1"
+                iyz="0"
+                izz="1"/>
+        </inertial>
+
+    </link>
+
+</robot>

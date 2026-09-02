@@ -1,0 +1,7 @@
+﻿group,total,correct,recognition_failure,nozzle_selection_failure,physical_failure,unfinished,success_rate
+overall,100,81,4,0,15,0,0.810000
+universal polystyrene tube,23,17,2,0,4,0,0.739130
+universal polypropylene tube,16,11,1,0,4,0,0.687500
+polypropylene centrifuge tube 1,20,20,0,0,0,0,1.000000
+polypropylene centrifuge tube 2,21,18,0,0,3,0,0.857143
+polypropylene lysis tube,20,15,1,0,4,0,0.750000
